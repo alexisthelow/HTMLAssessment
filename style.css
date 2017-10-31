@@ -3,11 +3,13 @@ table, th, td {
   border-collapse: collapse;
   padding: 5px;
 }
+
 tfoot {
   font-size: smaller;
   text-align: center;
 }
- .scores td:first-child {
+
+.scores td:first-child {
    text-align: left;
    padding: 0px 10px 0px 10px;
  }
@@ -16,7 +18,33 @@ tfoot {
    text-align: center;
  }
 
+.team {
+  list-style-type: disc;
+}
+
+.position {
+  list-style-type: lower-greek;
+}
+
+.player {
+  list-style-type: square;
+}
+
  .team>li{
-   font-weight: bold;
+   font-weight: bolder;
+   font-size: larger;
    text-transform: uppercase;
+ }
+
+ .position>li {
+   font-weight: bold;
+ }
+
+ .player>li {
+
+ }
+
+ .logo {
+   width: 100px;
+   padding: 5px;
  }
