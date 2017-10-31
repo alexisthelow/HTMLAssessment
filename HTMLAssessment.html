@@ -29,7 +29,7 @@
     <p>
       Well, not quite the traditional suicide note I was going for, but as close to one as I can get. I’m wondering about the etiquette of laughing at a joke in a suicide note. Do you laugh? I really couldn’t resist putting it in. At least, I’d probably get an uncomfortable pause or two. That’s one word that really annoys me, when I’m inclined to be annoyed by words. Humane. Humans are base, cruel, hateful creatures that are only kept in line by an iron heel or free and easy living. Give a man a ridiculous salary and you don’t have to worry about beating him into the ground. Humane. If I understood irony then maybe I could make some sort of clever comment, but I’m only capable of sub-human mumblings.
     </p>
-    <h2>TABLE</h2>
+    <h2>Scores</h2>
     <table>
       <caption>Sports Team Scores</caption>
       <tr>
@@ -66,8 +66,8 @@
     </table>
 
     <h2>Player Rosters</h2>
-    <a href="http://www.soundsonline.com/"><img src="west.gif" alt="East Westers" class="logo">
     <ul class="team">
+      <a href="http://www.soundsonline.com/"><img src="west.gif" alt="East Westers" class="logo">
       <li>East Westers</a></li>
         <ol class="position">
           <li>Captain</li>
@@ -163,47 +163,56 @@
         </ul>
           <br>
           Choose Your Favorite Sport: <br>
-          <select name="favSport">
-            <optgroup label="Cool Sports">
-              <option>Bed Racing</option>
-              <option>Clog Cobbing</option>
-              <option>Hairiest Back</option>
-              <option>Ironing</option>
-              <option>Ironing (X-TREME)</option>
-              <option>League of Legends</option>
-              <option>Sporthocking</option>
-              <option>Uppies and Downies</option>
-              <option>Wife Carrying</option>
-            </optgroup>
-            <optgroup label="Nerd Sports">
-              <option>Ballswatting</option>
-              <option>Get The Ball In The Basket</option>
-              <option>Handegg</option>
-              <option>Pucksmacking</option>
-              <option></option>
-            </optgroup>
-          </select> <br>
+          <ul class="formList">
+            <li>
+              <select name="favSport">
+                <optgroup label="Cool Sports">
+                  <option>Bed Racing</option>
+                  <option>Clog Cobbing</option>
+                  <option>Hairiest Back</option>
+                  <option>Ironing</option>
+                  <option>Ironing (X-TREME)</option>
+                  <option>League of Legends</option>
+                  <option>Sporthocking</option>
+                  <option>Uppies and Downies</option>
+                  <option>Wife Carrying</option>
+                </optgroup>
+                <optgroup label="Nerd Sports">
+                  <option>Ballswatting</option>
+                  <option>Get The Ball In The Basket</option>
+                  <option>Handegg</option>
+                  <option>Pucksmacking</option>
+                  <option></option>
+                </optgroup>
+              </select>
+            </li>
+          </ul>
           <br>
           What kind of things have you done with regards to this sport? <br>
-          <input type="checkbox" name="played"> Played <br>
-          <input type="checkbox" name="attended"> Attended <br>
-          <input type="checkbox" name="betOn"> Bet on <br>
-          <input type="checkbox" name="coached"> Coached <br>
-          <input type="checkbox" name="watched"> Watched <br>
-          <input type="checkbox" name="argued"> Argued about <br>
-          <input type="checkbox" name="fought"> Fought about <br>
-          <input type="checkbox" name="rioted"> Rioted about <br>
-          <input type="checkbox" name="killed"> Killed about <br>
-          <input type="checkbox" name="imprisoned"> Went to prison about <br>
+          <ul class="formList">
+            <li><input type="checkbox" name="played"> Played </li>
+            <li><input type="checkbox" name="attended"> Attended </li>
+            <li><input type="checkbox" name="betOn"> Bet on </li>
+            <li><input type="checkbox" name="coached"> Coached </li>
+            <li><input type="checkbox" name="watched"> Watched </li>
+            <li><input type="checkbox" name="argued"> Argued about </li>
+            <li><input type="checkbox" name="fought"> Fought about </li>
+            <li><input type="checkbox" name="rioted"> Rioted about </li>
+            <li><input type="checkbox" name="killed"> Killed about </li>
+            <li><input type="checkbox" name="imprisoned"> Went to prison about </li>
+            <li><input type="checkbox" name="prisonPlay"> Played in prison </li>
+          </ul>
           <br>
           Which version of this sport do you prefer? <br>
-          <input type="radio" name="version" value="amateur"> Amateur <br>
-          <input type="radio" name="version" value="college"> College <br>
-          <input type="radio" name="version" value="pro"> Professional <br>
-          <input type="radio" name="version" value="semiPro"> Semi-Professional <br>
-          <input type="radio" name="version" value="semiAm"> Semi-Amateur <br>
-          <input type="radio" name="version" value="ProAm"> Professional Amateur <br>
-          <input type="radio" name="version" value="semiAm"> Amateur Professional <br>
+          <ul class="formList">
+            <li><input type="radio" name="version" value="amateur"> Amateur </li>
+            <li><input type="radio" name="version" value="college"> College </li>
+            <li><input type="radio" name="version" value="pro"> Professional </li>
+            <li><input type="radio" name="version" value="semiPro"> Semi-Professional </li>
+            <li><input type="radio" name="version" value="semiAm"> Semi-Amateur </li>
+            <li><input type="radio" name="version" value="ProAm"> Professional Amateur </li>
+            <li><input type="radio" name="version" value="semiAm"> Amateur Professional </li>
+          </ul>
           <br>
           <input type="submit" name="submit" value="SUBMIT"> <input type="reset" name="reset" value="RESET"><br>
 

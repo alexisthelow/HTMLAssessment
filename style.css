@@ -27,7 +27,7 @@ tfoot {
 }
 
 .player {
-  list-style-type: square;
+  list-style-type: disc;
 }
 
  .team>li{
