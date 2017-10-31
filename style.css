@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -10,14 +16,13 @@ tfoot {
 }
 
 .rosterBox {
-  height: auto;
   width: 70%;
   margin: auto;
 }
 
 .rosterHeader {
   height: 50px;
-  width: auto;
+  width: 100%;
   text-align: center;
 }
 
@@ -35,7 +40,7 @@ tfoot {
 }
 
 .rosterClear {
-  clear: right;
+  clear: both;
 }
 
 .scores td:first-child {
@@ -47,27 +52,31 @@ tfoot {
    text-align: center;
  }
 
-.team {
-  list-style-type: disc;
+.team, .position, .player {
+  list-style-type: none;
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
 }
 
-.position {
-  list-style-type: lower-greek;
+.team>li, .position>li, .player>li {
+  vertical-align: middle;
+  text-indent: none;
 }
 
-.player {
-  list-style-type: disc;
-}
-
- .team>li{
+.team>li{
    font-weight: bolder;
    font-size: larger;
    text-transform: uppercase;
- }
+}
 
  .position>li {
+   padding-top: 10px;
    font-weight: bold;
+
  }
+
 
  .logo {
    height: 100px;
