@@ -9,6 +9,35 @@ tfoot {
   text-align: center;
 }
 
+.rosterBox {
+  height: auto;
+  width: 70%;
+  margin: auto;
+}
+
+.rosterHeader {
+  height: 50px;
+  width: auto;
+  text-align: center;
+}
+
+.roster1 {
+  height: auto;
+  width: 50%;
+  float: left;
+}
+
+.roster2 {
+  height: auto;
+  width: 50%;
+  float: right;
+
+}
+
+.rosterClear {
+  clear: right;
+}
+
 .scores td:first-child {
    text-align: left;
    padding: 0px 10px 0px 10px;
@@ -41,7 +70,7 @@ tfoot {
  }
 
  .logo {
-   width: 100px;
+   height: 100px;
    padding: 5px;
  }
 
