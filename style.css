@@ -15,3 +15,8 @@ tfoot {
  .scores {
    text-align: center;
  }
+
+ .team>li{
+   font-weight: bold;
+   text-transform: uppercase;
+ }
